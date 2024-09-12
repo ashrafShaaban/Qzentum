@@ -82,9 +82,25 @@ section a{
     align-items: center;
 }
 .header-menu .logo img{
-   width: 100px;
+   width: 250px;
    
    
+}
+/* @media (max-width:1199px){
+    .header-menu .logo img
+    {
+        width: 100px;
+        height: 50px;
+        
+     }
+} */
+@media (max-width:768px){
+    .header-menu .logo img
+    {
+        width: 150px;
+        
+        
+     }
 }
 
 .header-menu .menu ul{
@@ -104,6 +120,12 @@ section a{
     color: black;
    
     line-height: 1.5;
+}
+.header-menu .menu a:hover{
+ color:orange;
+ border-bottom-width: 100%;
+ border-bottom-color: orange;
+ border-bottom-style: solid                                                                                                                                               ;
 }
 .header-menu .menu > ul > li > a {
   padding: 24px 0;
@@ -147,6 +169,9 @@ position: relative;
     font-size: 17px;
     
 }
+.header-menu .menu .submenu a:hover{
+    color:orange;
+   }
 .header-menu .menu .submenu li{
     margin-bottom: 20px;
 }
@@ -447,9 +472,290 @@ position: relative;
         margin-top: 220px;
     }
 }
+
+/* home page */
+.caro.home{
+    margin-top: 200px;
+}
 div .carousel-inner .carousel-item img{
     width: 100%;
-  height: 400px;
+  height: 450px;
+}
+
+.caros{
+    position: absolute;
+    top: 20%;
+    text-align: start;
+   
+}
+.caros h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--main--color);
+}
+.caros h5{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.caros p{
+    color:#ff3f34;
+    font-size: 20px;
+}
+.caros p i{
+    color: var(--main--color);
+    margin-right: 10px;
+}
+@media(max-width:768px){
+   
+    .caros h1{
+        font-size: 25px;
+       
+    }
+    .caros h5{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .caros p{
+     
+        font-size: 15px;
+    }
+
+}
+.services h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  
+}
+
+.our-service {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.our-service .service{
+    width: 45%;
+}
+.our-service .service p,.service .text p{
+    font-size: 15px;
+    color: #636e72;
+    
+}
+.service .text span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+@media(max-width:768px){
+    .our-service {
+        display: block;
+    }
+    .our-service .service{
+        width: 100%;
+    }
+    .services h2{
+        font-weight: bold;
+        font-size: 24px;
+      
+    }
+}
+section.why-us .container-why{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+section.why-us .container-why .info img{
+    width: 100%;
+}
+section.why-us .container-why .info.text{
+    background-color: var(--main--color);
+    padding: 80px 30px;
+}
+section.why-us .container-why .info.text h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+section.why-us .container-why .info.text p{
+    font-size: 20px;
+    line-height: 2;
+    color: #222;
+}
+/* about page */
+.qualityteam,.workplace{
+    margin-top: 200px;
+}
+.qualityteam .qualityteamtext{
+    text-align: center;
+}
+.qualityteam .qualityteamtext span{
+    color: var(--main--color);
+}
+.qualityteam .qualityteamtext h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.qualityteam .qualityteamtext p{
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+}
+section.teammember .container-team{
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+   flex-wrap: wrap;
+    gap: 10px;
+    margin: 100px 0;
+}
+
+section.teammember .container-team .memberinfo{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--main--color);
+    border-radius: 4px;
+    padding: 20px 12px;
+    margin-right: 20px;
+  
+}
+section.teammember .container-team .memberinfo i{
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: var(--main--color);
+}
+section.teammember .container-team .memberinfo h2{
+    font-size: 30px;
+    margin-top: 40px;
+}
+@media(max-width:991px){
+    section.teammember .container-team  .memberinfo{
+        height: 350px;
+    }
+}
+@media(max-width:768px){
+    section.teammember .container-team{
+        margin: 50px 0;
+    }
+    .qualityteam .qualityteamtext h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .qualityteam .qualityteamtext p{
+        font-size: 15px;
+        color: #222;
+    }
+    section.teammember .container-team  .memberinfo h2{
+        font-size: 20px;
+
+      }
+   
+}
+@media(max-width:450px){
+    section.teammember .container-team  .memberinfo{
+        margin-bottom: 10px;
+        width: 100%;
+        
+        padding: 10px 8px;
+    }
+}
+
+.softservice h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.softwaretest{
+    display: block;
+}
+.softwaretest .services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.softwaretest .services .ic{
+    width: 5%;
+}
+.softwaretest .services .ic i{
+    color: var(--main--color);
+
+}
+.softwaretest .services .serv{
+    width: 90%;
+}
+.softwaretest .services .serv h3{
+  font-size: 30px;
+}
+.softwaretest .services .serv p{
+    font-size: 16px;
+    color: #636e72;
+}
+@media(max-width:450px){
+    .softservice h2{
+        font-size: 20px;
+    }
+    .softwaretest .services .serv h3{
+        font-size: 15px;
+      }
+      .softwaretest .services .serv p{
+          font-size: 10px;
+          color: #636e72;
+      }
+      .softwaretest .services .serv{
+        width: 85%;
+    }
+      .softwaretest .services .ic{
+        width: 10%;
+    }
+}
+.workplace{
+    display: block;
+}
+.workplace > div{
+    margin-bottom: 100px;
+}
+.workplace > div h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.workplace >div p{
+    line-height: 2;
+    font-size: 17px;
+    color: #636e72;
+}
+.workplace .container-conv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.workplace .container-conv .con{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.workplace .container-conv .con h4{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.workplace .container-conv .con i{
+    background-color: var(--main--color);
+    padding: 20px 15px;
+    border-radius: 50%;
+    color: white;
+}
+.workplace .container-conv .con p{
+    color: #636e72;
 }
 /* test automation page */
 /* div .carousel-inner .carousel-item .carousel-caption h5,div .carousel-inner .carousel-item .carousel-caption p{
