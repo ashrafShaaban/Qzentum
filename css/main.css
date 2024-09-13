@@ -1322,12 +1322,11 @@ section.when h3{
     section.when h3{
         margin: 20px 0;
     }
-    section.when .general.challenge.webapp div{
-        height: 120px;
+    section.when .general.challenge.webapp div,section.when .general.challenge.mobileapp div
+     {
+        height: 150px;
      }
-    section.when .general.challenge.mobileapp div{
-        height: 120px;
-     }
+    
      section .general.challenge.sap div{
         height: 120px;
     }
@@ -1349,10 +1348,10 @@ section.when h3{
 }
 @media (max-width:450px){
     section.when .general.challenge.mobileapp div{
-        height: 200px;
+        height: 220px;
      }
      section .general.challenge.sap div{
-        height: 200px;
+        height: 220px;
     }
     section .general.sap2 div  {
         height: 450px;
@@ -1374,6 +1373,9 @@ section .types.erp .type ,section .types.crm .type{
    section .types.financial .type{
     height: 400px;
    }
+   section .general.challenge.erp div,section .general.challenge.crm div{
+    height: 200px;
+}
 }
 /* functional page */
 section .general.functional div{
@@ -1395,6 +1397,9 @@ section .general.challenge.uiux div{
 @media (max-width:768px){
     section .types.uiux .type{
         height: 350px;
+    }
+    section .general.challenge.uiux div{
+        height: 200px;
     }
  }
 
@@ -1447,8 +1452,11 @@ section.when .general.adhoc div{
     }
  }
  @media (max-width:768px){
-    section.when .general.adhoc div,section.when .general.local div{
-        height: 200px;
+    section.when .general.adhoc div{
+        height: 280px;
+    }
+    section.when .general.local div{
+        height: 220px;
       }
       
       section .types.adhoc .type{
