@@ -518,6 +518,7 @@ div .carousel-inner .carousel-item img{
 .caros h5{
     font-size: 25px;
     margin-bottom: 40px;
+    color:white;
 }
 .caros p{
     color:#ff3f34;
@@ -1646,10 +1647,10 @@ section .types.e-learn .type{
 @media(max-width:768px){
     .types.play .type{
         width: 100%;
-        height: 300px;
+        height: 100%;
     }
     .types.wright .type{
-        height: 350px;
+        height: 100%;
         width: 100%;
     }
 }
@@ -1674,13 +1675,13 @@ section .types.e-learn .type{
 @media(max-width:768px){
     .types.selenium1 .type{
         width: 100%;
-        height: 250px;
+        height: 100%;
         
     }
     
     .types.selenium2 .type{
         width: 100%;
-        height: 300px;
+        height: 100%;
     }
 }
 .types.cypress1 .type{
@@ -1693,22 +1694,22 @@ section .types.e-learn .type{
    
     .types.cypress1 .type{
        width: 45%;
-       height: 370px;
+       height: 100%;
     }
     .types.cypress2 .type{
         width: 45%;
-       height: 300px;
+        height: 100%;
     }
 }
 @media(max-width:768px){
    
     .types.cypress1 .type{
-        height: 330px;
+        height: 100%;
         width: 100%;
     }
     .types.cypress2 .type{
         width: 100%;
-        height: 300px;
+        height: 100%;
       
     }
 }
@@ -1733,12 +1734,12 @@ section .types.e-learn .type{
 @media(max-width:768px){
    
     .types.cucumber1 .type{
-        height: 350px;
+        height: 100%;
         width: 100%;
     }
     .types.cucumber2 .type{
         width: 100%;
-        height: 380px;
+        height: 100%;
       
     }
 }
@@ -1755,7 +1756,7 @@ section .types.e-learn .type{
    
     .types.appium .type{
  
-        height: 350px;
+        height: 100%;
         width: 100%;
     }
 
@@ -1776,7 +1777,7 @@ section .types.e-learn .type{
    
     .types.testng .type{
  
-        height: 300px;
+        height: 100%;
         width: 100%;
     }
 
@@ -1826,7 +1827,7 @@ section.postman ul li{
 @media(max-width:768px){
    
     .types.tosca .type{
-        height: 250px;
+        height: 100%;
         width: 100%;
     }
 }
