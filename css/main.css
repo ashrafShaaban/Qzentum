@@ -1848,3 +1848,114 @@ section.postman ul li{
         width: 100%;
     }
 }
+
+section.contact{
+    background-color: #eee;
+}
+section .contact-us{
+    margin-top: 200px;
+    background-color:#eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+section .contact-us .image{
+    flex: 1 1 500px;
+}
+section .contact-us .image img{
+    width: 100%;
+   height: 400px;
+}
+section .contact-us .contact-form{
+    flex: 1 1 250px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color:white;
+}
+
+/* section .contact form{
+    
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 15px;
+
+} */
+section .contact-us form h3{
+    text-align: center;
+    margin: 10px 0;
+
+}
+section .contact-us form .cell{
+    width: 100%;
+ margin-bottom: 10px;
+ padding: 8px 10px;
+ font-size: 17px;
+ border: none;
+ border-radius: 5px;
+ background-color: #eee;
+}
+section .contact-us form textarea{
+   resize: none;
+   height: 200px;
+}
+section .contact-us form button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+    text-align: center;
+    width: fit-content;
+    font-size: 17px;
+    background-color: #eee;
+
+}
+section .contact-us form button:hover{
+    background-color: var(--main--color);
+    color: white;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px ;
+
+}
+.contact-container .box{
+    flex: 1 1 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+.contact-container .box i{
+    color: var(--main--color);
+    margin: 10px 0;
+}
+.contact-container .box h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.contact-container .box a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #636e72;
+}
+.contact-container .box a:hover{
+    color:var(--main--color);
+    text-decoration: underline;
+}
+@media (max-width:991px){
+    .contact-container .box{
+        flex:1 1 300px
+    }
+}
+@media (max-width:768px){
+    .section .contact-us .image img{
+        height: 300px;
+    }
+}
