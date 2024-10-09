@@ -334,7 +334,143 @@ position: relative;
     }
 }
 
+/* chatbot design */
+section.chatbot{
+    width: 350px;
+    background-color: white;
+    right: 10px;
+    bottom:70px;
+    position: fixed;
+    overflow: hidden;
+    border-radius: 15px;
+    visibility: hidden;
+   
+}
+/* @media(max-width:450px){
+    section.chatbot{
+        width: 100%;
+        height: 100%;
+    }
 
+
+} */
+section.chatbot.show{
+    visibility: visible;
+}
+
+section.chatbot header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: var(--main--color);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+section.chatbot header span{
+    position:absolute;
+    
+    font-size: 25px;
+    top:0;
+    right:10px;
+    cursor: pointer;
+
+   
+}
+section.chatbot header img{
+    width: 50px;
+  
+}
+section.chatbot header h2{
+    font-size: 20px;
+    color:white;
+   
+}
+section.chatbot .chat-area{
+
+    height: 300px;
+    padding:  10px 20px 70px;
+    overflow-y: auto;
+
+}
+section.chatbot .chat-area .chat {
+    display: flex;
+}
+section.chatbot .chat-area .chat p{
+    background-color: #eee;
+    max-width: 75%;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 10px 10px 0 10px;
+}
+section.chatbot .chat-area .bot p{
+    color:#222;
+    background-color:#f2f2f2 ;
+    border-radius: 10px 10px 10px 0;
+}
+section.chatbot .chat-area .human {
+    justify-content: flex-end;
+}
+section.chatbot .chat-area .human p{
+    background: var(--main--color);
+    color: white;
+}
+section.chatbot .input-chat{
+    position: absolute;
+    border-top: 1px solid #ddd;
+    bottom: 0;
+    width:100%;
+    background:#fff;
+    padding: 5px 20px;
+    display: flex;
+    gap: 10px;
+}
+
+section.chatbot .input-chat textarea{
+    outline: none;
+    border:none;
+    resize: none;
+    width: 100%;
+    padding: 15px 15px 15px 0;
+    font-size: 17px;
+ 
+}
+section.chatbot .input-chat textarea:valid ~ button{
+    visibility: visible;
+}
+section.chatbot .input-chat button{
+    height: 50px;
+    line-height: 50px;
+    transform: rotate(45deg);
+  background:none;
+    border: none; 
+    font-size: 17px;
+    color: var(--main--color);
+    cursor: pointer;
+    visibility: hidden;
+}
+.chat-toggle{
+    position:fixed;
+  display: flex;
+  right:10px;
+  bottom: 10px;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: var(--main--color);
+
+}
+.chat-toggle span{
+  position: absolute;
+  font-size: 17px;
+}
 
 .general{
     display: flex;
@@ -1957,5 +2093,77 @@ section .contact-us form button:hover{
 @media (max-width:768px){
     .section .contact-us .image img{
         height: 300px;
+    }
+}
+
+
+.footer-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+    justify-content: center;
+    margin:50px ;
+}
+.footer-container h3{
+    font-size: 20px;
+    color: #494949;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer-container p{
+    font-size: 16px;
+    color: #636e72;
+    line-height: 1.8;
+}
+.footer-container .foot .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+}
+.footer-container .foot .icons a{
+ flex:0 0 100px;
+ margin-bottom:20px;
+}
+.footer-container .foot .icons a i{
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: var(--main--color);
+}
+.footer-container .foot p a{
+    text-decoration: none;
+    color: #636e72;
+    font-size: 17px;
+    line-height: 2;
+}
+section.footer .footer-copy {
+   background-color: #eee;
+   border-top: 1px solid #ddd;
+    padding: 30px 50px;
+   
+   
+}
+section.footer .footer-copy span{
+     
+    margin-right: 20px;
+    color: #636e72;
+
+}
+section.footer .footer-copy a{
+   text-decoration: none;
+   color: #494949;
+   margin-right: 20px;
+}
+@media(max-width:991px){
+    .footer-container .foot{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:768px){
+     .footer-copy{
+        font-size: 20px;
+    }
+    section.footer .footer-copy a {
+        font-size: 20px;
     }
 }
