@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integration testing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    
+    <section id="header">
+        <nav class="header-nav">
+          <ul class="list-unstyled">
+              <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+              <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> :+20 101 609 6128</a></li>
+          </ul>
+      </nav>
+  
+      <div class="header-menu">
+        <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+        <nav class="menu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown"><a href="#">About us</a><i class="fa-solid fa-chevron-down"></i>
+              <ul class="submenu">
+                  <li><a href="../aboutus/qualityassurance.html">our Quality assurance team</a></li>
+                  <li><a href="../aboutus/workspace.html">Our Workspace</a></li>   
+              </ul></li>
+            <li class="dropdown"><a href="#">services</a><i class="fa-solid fa-chevron-down"></i>
+              <ul class="submenu">
+                <li class="dropdown"><a href="#">solutions</a><i class="fa-solid fa-chevron-down"></i>
+                  <uL class="submenu submenu-right">
+                      <li><a href="manaual-test.html">manual testing</a></li>
+                      <li><a href="test-automation.html">test automation</a></li>
+                      <li><a href="performance-test.html">Performance testing</a></li>
+                      <li><a href="qacontrol&advisory.html">QA Control & Advisory</a></li>
+                      <li><a href="qastrategy&processdesign.html">QA Strategy & Process design</a></li>
+                      <li><a href="devops.html">devOps</a></li>
+                      <li><a href="jira.html">jira</a></li>
+                      <li><a href="endtoend.html">end to End Testing</a></li>
+                      
+                  </uL>
+              </li>
+                <li class="dropdown"><a href="#">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+                    <uL class="submenu submenu-right">
+                        <li><a href="webapps.html">web apps</a></li>
+                        <li><a href="mobileapps.html">mobile apps</a></li>
+                        <li><a href="sap.html">SAP</a></li>
+                        <li><a href="erp.html">ERP</a></li>
+                        <li><a href="dynamicCRM.html">dynamic CRM</a></li>
+                        
+                        <li><a href="financialsystem.html">Financial System</a></li>
+                        
+                    </uL>
+                </li>
+                <li class="dropdown"><a href="#">coverage</a><i class="fa-solid fa-chevron-down"></i>
+                    <uL class="submenu submenu-right">
+                        <li><a href="functional.html">functional Testing</a></li>
+                        <li class="dropdown"><a href="#">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+                         <ul class="submenu submenu-right">
+                            <li><a href="ui&ux.html">UI&UX Testing</a></li>
+                            <li><a href="load&stress.html">load & Stress Testing</a></li>
+                         </ul>
+                        </li>
+                        <li><a href="system-test.html">system Testing</a></li>
+                        <li><a href="intergration.html">integration Testing</a></li>
+                        <li><a href="uat.html">UAT Testing</a></li>
+                        <li><a href="localization.html">Localization Testing</a></li>
+                        <li><a href="ad-hoc.html">Ad-Hoc Testing</a></li>
+                        <li><a href="api-test.html">Api Testing</a></li>
+                        
+                    </uL></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#">industries</a><i class="fa-solid fa-chevron-down"></i>
+              
+            
+                <ul class="submenu ">
+                    <div class="twolist">
+                    <li><a href="../industries/fintech.html">fintech</a></li>
+                    <li><a href="../industries/healthcare.html">healthCare</a></li>
+                    <li><a href="../industries/businessapp.html">business app</a></li>
+                    <li><a href="../industries/travel.html">travel</a></li>
+                    <li><a href="../industries/e-learning.html">e-learning</a></li>
+                    <li><a href="../industries/insurance.html">insurance</a></li>
+                    <li><a href="../industries/e-commerce.html">e-commerce</a></li>
+                    <li><a href="../industries/hr.html">HR</a></li>
+                </div>
+                </ul>
+        
+           
+            </li>
+            <li class="dropdown"><a href="#">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+              <ul class="submenu">
+                <div class="twolist">
+                <li><a href="../frameworks/selenuim.html">selenium</a></li>
+                <li><a href="../frameworks/playwright.html">playwright</a></li>
+                <li><a href="../frameworks/testng.html">testNG</a></li>
+              
+                <li><a href="../frameworks/maven.html">maven</a></li>
+                <li><a href="../frameworks/tosca.html">tosca</a></li>
+                <li><a href="../frameworks/cucumber.html">cucumber</a></li>
+                <li><a href="../frameworks/cypress.html">cypress</a></li>
+                <li><a href="../frameworks/appium.html">appium</a></li>
+                <li><a href="../frameworks/postman.html">postman</a></li>
+            </div>  
+            </ul>
+            </li>
+            
+            <li><a href="../contactus.html">contact us</a></li>
+            <button class="closemenu">X</button>
+        </ul>
+       </nav>
+         <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+       </div>
+         
+      </section>
+      <button class="chat-toggle">
+        <span><i class="fa-brands fa-rocketchat"></i></span>
+        
+      </button>
+      <section class="chatbot">
+        <header >
+          <span class="closechat">x</span>
+          <i class="fa-brands fa-bots fa-3x"></i>
+          <h2>Let's chat!</h2>
+        </header>
+        <div class="chat-area">
+          <div class="chat bot">
+            <p>Hi there,   <br>Please let me know how can i help you? </p>
+          </div>
+          <div class="chat human">
+          </div>
+        </div>
+        <form class="input-chat">
+          <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+          <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </section>
+    <section class="section-m1">
+        <div class="general fgeneral">
+            <div class="image">
+                <img src="../imgs/services/integration.png">
+            </div>
+            <div class="text">
+            <p > <span>Integration testing</span> verifies that individual software modules, when integrated, function together as expected. It identifies communication and data flow issues as well as improves overall software quality by detecting errors early in the development process. Qzentrum has served companies across diverse domains such as Healthcare, FinTech, and others. Our extensive expertise enables us to develop highly effective test automation solutions, speeding up your development cycles and ensuring the superior quality of your software products.
+
+            </p>
+            </div>
+        </div>
+    </section>
+    <section class="when section-m1">
+        <div class="f-text ">
+          <h2 >Our solutions for your Integration testing challenges</h2>
+          <p >We understand the complexities of integration testing and address them efficiently. Our seasoned team of QA experts leverages innovative testing methodologies and state-of-the-art tools to ensure the seamless integration of your software components.</p>
+        </div>
+
+        <h3 class="text-center">Complex ecosystems and dependencies</h3>
+        <div class="general challenge integration">
+           
+          <div class="step ">
+            <span> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p>Modern applications often rely on a complex net of interconnected systems, making it challenging to ensure seamless integration.</p>
+          </div>
+          <div class="solution">
+            <span> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p>We provide comprehensive integration testing strategies to identify and resolve issues within intricate ecosystems, ensuring a smooth data flow and sound functionality.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center">Ensuring  data consistency across platform</h3>
+        <div class="general challenge integration">
+           
+          <div class="step ">
+            <span> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p>Maintaining data consistency across diverse platforms and databases can be a daunting task with a high likelihood of potential integration errors.</p>
+          </div>
+          <div class="solution">
+            <span> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p>Our skilled testing team uses advanced techniques to validate data consistency, preventing discrepancies and ensuring accurate data flow.</p>
+        </div>
+          
+        </div>
+        
+        <h3 class="text-center">Third-party integration risks</h3>
+        <div class="general challenge integration">
+           
+          <div class="step ">
+            <span> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p>Integration with external APIs and third-party services introduces the risk of compatibility issues and unexpected disruptions. </p>
+          </div>
+          <div class="solution">
+            <span> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p>We conduct rigorous testing to identify and mitigate risks associated with third-party integrations, ensuring seamless work of your systems with external services.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center">Real-time communication challenges</h3>
+        <div class="general challenge integration">
+           
+          <div class="step ">
+            <span> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p>Applications often need to communicate in real time, and any lag or failure in communication can lead to performance issues.</p>
+          </div>
+          <div class="solution">
+            <span> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p>Our integration testing services include real-time communication testing that helps identify and address any delays or failures to guarantee uninterrupted data exchange.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center">Versioning and compatibility issues</h3>
+        <div class="general challenge integration">
+           
+          <div class="step ">
+            <span> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p>As software components evolve, versioning and compatibility issues may arise, hindering the integration process.</p>
+          </div>
+          <div class="solution">
+            <span> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p>We implement version control strategies and conduct thorough compatibility testing to ensure that your systems integrate seamlessly, regardless of software updates.</p>
+        </div>
+          
+        </div>
+      </section>
+   
+    <section class="section-m1">
+            <div class="f-text ">
+                <h2 >Types of integration testing we perform</h2>
+                <p >Our expert team of testers specializes in all integration testing types, each of which aims to protect your software from glitches, ensuring its flawless work.</p>
+        </div>
+        <div class="types integration">
+            <div class="type">
+                
+                <h3>Top-down integration testing</h3>
+                <p>We begin by testing the highest-level modules and gradually proceed to lower-level ones. This method helps early identify issues in critical functionalities, ensuring a robust and error-resistant software structure.</p>
+            </div>
+            <div class="type">
+                
+                <h3>Bottom-up integration testing</h3>
+                <p>In this case, we take the opposite approach by starting with testing low-level modules and gradually progressing to the high-level ones. Therefore, we can pinpoint and rectify potential issues at the grassroots level, contributing to a reliable and resilient software foundation.</p>
+            </div>
+            <div class="type">
+    
+                <h3>Mixed/Sandwich integration testing</h3>
+                <p>We blend the positive sides of both top-down and bottom-up approaches to create a comprehensive testing strategy. This hybrid method is particularly effective in uncovering intricate inter-module dependencies and ensuring a harmonious integration of components.</p>
+            
+        </div>
+        <div class="type">
+    
+            <h3>Mixed/Sandwich integration testing</h3>
+            <p>We blend the positive sides of both top-down and bottom-up approaches to create a comprehensive testing strategy. This hybrid method is particularly effective in uncovering intricate inter-module dependencies and ensuring a harmonious integration of components.</p>
+        
+    </div>
+    <div class="type">
+    
+        <h3>Big-band integration testing</h3>
+        <p>We test all modules simultaneously after their development, which allows us to assess the operation of a whole system. Our efficient and meticulous testing protocols ensure that no detail is overlooked during this grand convergence.</p>
+
+        </div>
+        <div class="type">
+    
+            <h3>Incremental integration testing</h3>
+            <p>We rigorously test that every new addition seamlessly aligns with the existing system. This method not only fosters continuous feedback but also minimizes the risk of systemic failures.</p>
+        
+            </div>
+    </section>
+    <section class="footer ">
+      <div class="footer-container">
+        <div class="foot">
+          <h3>ABOUT QZentrum</h3>
+          <p>QZentrum is a leading provider of QA services.</p>
+          <p>Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+        </div>
+     
+        <div class="foot">
+          <h3>Stay connected</h3>
+          <div class="icons">
+          <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+          
+        </div>
+        </div>
+         <div class="foot">
+          <h3>contact info</h3>
+          <p><a href="tel:01016096128"><i class="fa-solid fa-mobile-retro"></i> +20 101 609 6128</a></p>
+          <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i> sk@qzentrum.com</a></p>
+        
+        </div>
+      </div>
+      <div class="footer-copy">
+       
+         &copy;2024 <span>Qzentrum</span>, All rights reserved 
+      
+      </div>
+    </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>
