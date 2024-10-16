@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test automation with TestNG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  
+    <section id="header">
+        <nav class="header-nav">
+          <ul class="list-unstyled">
+              <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+              <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> :+20 101 609 6128</a></li>
+          </ul>
+      </nav>
+    
+         <div class="header-menu">
+          <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+          <nav class="menu">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown"><a href="#">About us</a><i class="fa-solid fa-chevron-down"></i>
+                  <ul class="submenu">
+                      <li><a href="../aboutus/qualityassurance.html">our Quality assurance team</a></li>
+                      <li><a href="../aboutus/workspace.html">Our Workspace</a></li>   
+                  </ul></li>
+              <li class="dropdown"><a href="#">services</a><i class="fa-solid fa-chevron-down"></i>
+                <ul class="submenu">
+                  <li class="dropdown"><a href="#">solutions</a><i class="fa-solid fa-chevron-down"></i>
+                    <uL class="submenu submenu-right">
+                        <li><a href="../services/manaual-test.html">manual testing</a></li>
+                        <li><a href="../services/test-automation.html">test automation</a></li>
+                        <li><a href="../services/performance-test.html">Performance testing</a></li>
+                        <li><a href="../services/qacontrol&advisory.html">QA Control & Advisory</a></li>
+                        <li><a href="../services/qastrategy&processdesign.html">QA Strategy & Process design</a></li>
+                        <li><a href="../services/devops.html">devOps</a></li>
+                        <li><a href="../services/jira.html">jira</a></li>
+                        <li><a href="../services/endtoend.html">end to End Testing</a></li>
+                        
+                    </uL>
+                </li>
+                  <li class="dropdown"><a href="#">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+                      <uL class="submenu submenu-right">
+                          <li><a href="../services/webapps.html">web apps</a></li>
+                          <li><a href="../services/mobileapps.html">mobile apps</a></li>
+                          <li><a href="../services/sap.html">SAP</a></li>
+                          <li><a href="../services/erp.html">ERP</a></li>
+                          <li><a href="../services/dynamicCRM.html">dynamic CRM</a></li>
+                          
+                          <li><a href="../services/financialsystem.html">Financial System</a></li>
+                          
+                      </uL>
+                  </li>
+                  <li class="dropdown"><a href="#">coverage</a><i class="fa-solid fa-chevron-down"></i>
+                      <uL class="submenu submenu-right">
+                          <li><a href="../services/functional.html">functional Testing</a></li>
+                          <li class="dropdown"><a href="../services/non-functional.html">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+                           <ul class="submenu submenu-right">
+                              <li><a href="../services/ui&ux.html">UI&UX Testing</a></li>
+                              <li><a href="../services/load&stress.html">load & Stress Testing</a></li>
+                           </ul>
+                          </li>
+                          <li><a href="../services/system-test.html">system Testing</a></li>
+                          <li><a href="../services/intergration.html">integration Testing</a></li>
+                          <li><a href="../services/uat.html">UAT Testing</a></li>
+                          <li><a href="../services/localization.html">Localization Testing</a></li>
+                          <li><a href="../services/ad-hoc.html">Ad-Hoc Testing</a></li>
+                          <li><a href="../services/api-test.html">Api Testing</a></li>
+                          
+                      </uL></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#">industries</a><i class="fa-solid fa-chevron-down"></i>
+                
+              
+                  <ul class="submenu ">
+                      <div class="twolist">
+                      <li><a href="../industries/fintech.html">fintech</a></li>
+                      <li><a href="../industries/healthcare.html">healthCare</a></li>
+                      <li><a href="../industries/businessapp.html">business app</a></li>
+                      <li><a href="../industries/travel.html">travel</a></li>
+                      <li><a href="../industries/e-learning.html">e-learning</a></li>
+                      <li><a href="../industries/insurance.html">insurance</a></li>
+                      <li><a href="../industries/e-commerce.html">e-commerce</a></li>
+                      <li><a href="../industries/hr.html">HR</a></li>
+                  </div>
+                  </ul>
+          
+             
+              </li>
+              <li class="dropdown"><a href="#">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+                <ul class="submenu">
+                  <div class="twolist">
+                  <li><a href="selenuim.html">selenium</a></li>
+                  <li><a href="playwright.html">playwright</a></li>
+                  <li><a href="testng.html">testNG</a></li>
+                
+                  <li><a href="maven.html">maven</a></li>
+                  <li><a href="tosca.html">tosca</a></li>
+                  <li><a href="cucumber.html">cucumber</a></li>
+                  <li><a href="cypress.html">cypress</a></li>
+                  <li><a href="appium.html">appium</a></li>
+                  <li><a href="postman.html">postman</a></li>
+              </div>  
+              </ul>
+              </li>
+             
+              <li><a href="../contactus.html">contact us</a></li>
+              <button class="closemenu">X</button>
+          </ul>
+         </nav>
+         <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+         </div>
+    </section>
+    <button class="chat-toggle">
+        <span><i class="fa-brands fa-rocketchat"></i></span>
+        
+      </button>
+      <section class="chatbot">
+        <header >
+          <span class="closechat">x</span>
+          <i class="fa-brands fa-bots fa-3x"></i>
+        <h2>Let's chat!</h2>
+        </header>
+        <div class="chat-area">
+          <div class="chat bot">
+            <p>Hi there,   <br>Please let me know how can i help you? </p>
+          </div>
+          <div class="chat human">
+          </div>
+        </div>
+        <form class="input-chat">
+          <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+          <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </section>
+    <section class="section-m1" >
+        <div class="general fgeneral ">
+            <div class="image">
+                <img src="../imgs/frameworks/testng.jpg">
+            </div>
+            <div class="text">
+            <p >Ensuring the quality and reliability of your applications is paramount. Manual testing, while essential, may not always suffice to meet the demands of rapid development cycles and frequent releases. In this case, leveraging TestNG test automation services can be a game-changer for your QA process.
+            </p>
+            </div>
+        </div>
+    </section>
+     <section class="section-m1">
+        <div class="f-text ">
+            <h2 >When do you need TestNG test automation services?</h2>
+          
+       </div>
+       <div class="types testng">
+          <div class="type">
+            
+            <h3>Complex and repetitive test scenarios</h3>
+            <p>TestNG excels at handling complex test scenarios and allows the creation of test suites that can be executed seamlessly. When your testing involves a large number of repetitive scenarios or intricate test cases, test automation becomes indispensable. It not only saves time but also ensures accuracy and consistency in test execution.</p>
+          </div>
+          <div class="type">
+           
+            <h3>Frequent regression testing</h3>
+            <p>In agile development environments, where changes are frequent and releases are rapid, regression testing is crucial. A manual approach to regression testing can be time-consuming and error-prone. Test automation with TestNG allows you to swiftly execute regression tests, ensuring that new updates or modifications don't introduce unexpected issues.</p>
+          </div>
+          <div class="type">
+
+            <h3>Parallel test execution requirements</h3>
+            <p>TestNG provides robust support for parallel test execution, a feature that significantly reduces testing time. When there is a need for running tests concurrently to expedite the feedback loop, TestNG test automation services is the way to go. This is particularly beneficial for large test suites and distributed testing environments.</p>
+        
+        </div>
+         <div class="type">
+
+            <h3>CI/CD pipelines</h3>
+            <p>The integration of automated tests into CI/CD pipelines is a common practice to ensure the stability of each release. TestNG, with its integration capabilities, is perfect for CI/CD workflows. Automated tests can be triggered automatically upon code changes, providing rapid feedback to development teams.</p>
+    
+         </div>
+            <div class="type">
+
+             <h3>Data-driven testing needs</h3>
+             <p>TestNG supports data-driven testing, allowing the parameterization of tests with various sets of data. When your testing requirements involve the validation of multiple input combinations, TestNG test automation services can efficiently handle data-driven scenarios, ensuring comprehensive test coverage.</p>
+
+            </div>
+            <div class="type">
+
+                <h3>Enhanced reporting and analysis</h3>
+                <p>TestNG provides customizable, detailed, and structured test reports that facilitate better analysis of test results and make it easier to identify issues and trends. As a result, you can identify patterns, track improvements, and make informed decisions.</p>
+   
+               </div>
+    </section>
+    <section class="section-m1">
+        <div class="f-text ">
+            <h2 >TestNG automation testing services</h2>
+          <p>Optimize your QA process with our specialized TestNG automation testing services. Our expert team excels in TestNG and delivers comprehensive solutions tailored to your testing needs.</p>
+       </div>
+       <div class="types testng">
+          <div class="type">
+            
+            <h3>Consulting on TestNG test automation</h3>
+            <p>Considering TestNG for your test automation needs? Our seasoned consultants are here to guide you on the journey to test automation excellence. With deep expertise in Java and TestNG, they will help you design a tailored test plan, adopt best practices in automated testing, and create a scalable and efficient test automation solution.</p>
+          </div>
+          <div class="type">
+           
+            <h3>Crafting test automation plans</h3>
+            <p>Not to miss a detail, we create a comprehensive test automation plan that outlines objectives, the scope of automation, tech stack, test data strategy, risks, test case selection criteria, coding standards, and many more. A well-defined test automation plan serves as a roadmap for our entire automation effort, ensuring clarity, consistency, and successful implementation.</p>
+          </div>
+         
+         <div class="type">
+
+            <h3>Building TestNG automation solutions from scratch</h3>
+            <p>Irrespective of the project's complexity and current development stage, our team can create a robust, scalable, efficient, and easy-to-maintain TestNG-based automation solution for you. Being built from the ground up it will be aligned with all your requirements and needs.</p>
+    
+         </div>
+        
+            <div class="type">
+
+             <h3>Designing test automation architecture</h3>
+             <p>Our experts develop a resilient test automation architecture taking into consideration all nuances such as test design patterns, est suite structure, test data handling, integration with third-party systems, logging, and many more.</p>
+
+            </div>
+            <div class="type">
+
+                <h3>Creating tailor-made test suites Integrating tests into CI/CD pipelines</h3>
+                <p>If you adopt DevOps practices, our team can seamlessly integrate WebdriverIO-based automated tests into your CI/CD pipelines to ensure shorter feedback loops, faster releases, and better software quality.</p>
+            
+            </div>
+            <div class="type">
+
+                <h3>Continous support and maintenance</h3>
+                <p>We provide continuous support and maintenance for your TestNG automation solution, ensuring it seamlessly aligns with evolving changes in your application. This commitment allows it to remain efficient and effective throughout the entire software development lifecycle</p>
+   
+               </div>
+
+    </section>
+    <section class="footer ">
+        <div class="footer-container">
+          <div class="foot">
+            <h3>ABOUT QZentrum</h3>
+            <p>QZentrum is a leading provider of QA services.</p>
+            <p>Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+          </div>
+       
+          <div class="foot">
+            <h3>Stay connected</h3>
+            <div class="icons">
+            <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            
+          </div>
+          </div>
+           <div class="foot">
+            <h3>contact info</h3>
+            <p><a href="tel:01016096128"><i class="fa-solid fa-mobile-retro"></i> +20 101 609 6128</a></p>
+            <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i> sk@qzentrum.com</a></p>
+          
+          </div>
+        </div>
+        <div class="footer-copy">
+         
+           &copy;2024 <span>Qzentrum</span>, All rights reserved 
+        
+        </div>
+      </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>

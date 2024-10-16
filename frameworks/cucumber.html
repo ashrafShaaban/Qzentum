@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test automation with Cucumber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  
+    <section id="header">
+        <nav class="header-nav">
+          <ul class="list-unstyled">
+              <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+              <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> :+20 101 609 6128</a></li>
+          </ul>
+      </nav>
+    
+         <div class="header-menu">
+          <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+          <nav class="menu">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown"><a href="#">About us</a><i class="fa-solid fa-chevron-down"></i>
+                  <ul class="submenu">
+                      <li><a href="../aboutus/qualityassurance.html">our Quality assurance team</a></li>
+                      <li><a href="../aboutus/workspace.html">Our Workspace</a></li>   
+                  </ul></li>
+              <li class="dropdown"><a href="#">services</a><i class="fa-solid fa-chevron-down"></i>
+                <ul class="submenu">
+                  <li class="dropdown"><a href="#">solutions</a><i class="fa-solid fa-chevron-down"></i>
+                    <uL class="submenu submenu-right">
+                        <li><a href="../services/manaual-test.html">manual testing</a></li>
+                        <li><a href="../services/test-automation.html">test automation</a></li>
+                        <li><a href="../services/performance-test.html">Performance testing</a></li>
+                        <li><a href="../services/qacontrol&advisory.html">QA Control & Advisory</a></li>
+                        <li><a href="../services/qastrategy&processdesign.html">QA Strategy & Process design</a></li>
+                        <li><a href="../services/devops.html">devOps</a></li>
+                        <li><a href="../services/jira.html">jira</a></li>
+                        <li><a href="../services/endtoend.html">end to End Testing</a></li>
+                        
+                    </uL>
+                </li>
+                  <li class="dropdown"><a href="#">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+                      <uL class="submenu submenu-right">
+                          <li><a href="../services/webapps.html">web apps</a></li>
+                          <li><a href="../services/mobileapps.html">mobile apps</a></li>
+                          <li><a href="../services/sap.html">SAP</a></li>
+                          <li><a href="../services/erp.html">ERP</a></li>
+                          <li><a href="../services/dynamicCRM.html">dynamic CRM</a></li>
+                          
+                          <li><a href="../services/financialsystem.html">Financial System</a></li>
+                          
+                      </uL>
+                  </li>
+                  <li class="dropdown"><a href="#">coverage</a><i class="fa-solid fa-chevron-down"></i>
+                      <uL class="submenu submenu-right">
+                          <li><a href="../services/functional.html">functional Testing</a></li>
+                          <li class="dropdown"><a href="../services/non-functional.html">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+                           <ul class="submenu submenu-right">
+                              <li><a href="../services/ui&ux.html">UI&UX Testing</a></li>
+                              <li><a href="../services/load&stress.html">load & Stress Testing</a></li>
+                           </ul>
+                          </li>
+                          <li><a href="../services/system-test.html">system Testing</a></li>
+                          <li><a href="../services/intergration.html">integration Testing</a></li>
+                          <li><a href="../services/uat.html">UAT Testing</a></li>
+                          <li><a href="../services/localization.html">Localization Testing</a></li>
+                          <li><a href="../services/ad-hoc.html">Ad-Hoc Testing</a></li>
+                          <li><a href="../services/api-test.html">Api Testing</a></li>
+                          
+                      </uL></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#">industries</a><i class="fa-solid fa-chevron-down"></i>
+                
+              
+                  <ul class="submenu ">
+                      <div class="twolist">
+                      <li><a href="../industries/fintech.html">fintech</a></li>
+                      <li><a href="../industries/healthcare.html">healthCare</a></li>
+                      <li><a href="../industries/businessapp.html">business app</a></li>
+                      <li><a href="../industries/travel.html">travel</a></li>
+                      <li><a href="../industries/e-learning.html">e-learning</a></li>
+                      <li><a href="../industries/insurance.html">insurance</a></li>
+                      <li><a href="../industries/e-commerce.html">e-commerce</a></li>
+                      <li><a href="../industries/hr.html">HR</a></li>
+                  </div>
+                  </ul>
+          
+             
+              </li>
+              <li class="dropdown"><a href="#">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+                <ul class="submenu">
+                  <div class="twolist">
+                  <li><a href="selenuim.html">selenium</a></li>
+                  <li><a href="playwright.html">playwright</a></li>
+                  <li><a href="testng.html">testNG</a></li>
+                  
+                  <li><a href="maven.html">maven</a></li>
+                  <li><a href="tosca.html">tosca</a></li>
+                  <li><a href="cucumber.html">cucumber</a></li>
+                  <li><a href="cypress.html">cypress</a></li>
+                  <li><a href="appium.html">appium</a></li>
+                  <li><a href="postman.html">postman</a></li>
+              </div>  
+              </ul>
+              </li>
+             
+              <li><a href="../contactus.html">contact us</a></li>
+              <button class="closemenu">X</button>
+          </ul>
+         </nav>
+         <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+         </div>
+    </section>
+    <button class="chat-toggle">
+      <span><i class="fa-brands fa-rocketchat"></i></span>
+      
+    </button>
+    <section class="chatbot">
+      <header style="color:#EA2027;">
+        <span class="closechat">x</span>
+        <i class="fa-brands fa-bots fa-3x"></i>
+        <h2>Let's chat!</h2>
+      </header>
+      <div class="chat-area">
+        <div class="chat bot">
+          <p>Hi there,   <br>Please let me know how can i help you? </p>
+        </div>
+        <div class="chat human">
+        </div>
+      </div>
+      <form class="input-chat">
+        <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </section>
+    <section class="section-m1" >
+        <div class="general fgeneral ">
+            <div class="image">
+                <img src="../imgs/frameworks/cucumber.jpg">
+            </div>
+            <div class="text">
+            <p > <span>Cucumber</span> is an open-source automation testing tool, is widely used for behavior-driven development (BDD) and acceptance test-driven development (ATDD). It facilitates seamless collaboration between non-technical stakeholders—such as business analysts and product owners—and technical team members, including developers and testers. This is achieved by providing a common language for articulating software requirements.
+
+            </p>
+            </div>
+        </div>
+    </section>
+     <section class="section-m1">
+        <div class="f-text ">
+            <h2 >When do you need Cucumber test automation services?</h2>
+          
+       </div>
+       <div class="types cucumber1">
+          <div class="type">
+            
+            <h3>Behavior-driven development (BDD) implementation</h3>
+            <p>When embracing the BDD approach, collaboration between development, QA, and business teams is crucial. As a BDD tool, Cucumber facilitates effective communication through plain-text specifications. Therefore, this is an invaluable choice for scenarios where close collaboration between technical and non-technical stakeholders is paramount.</p>
+          </div>
+          <div class="type">
+           
+            <h3>Enhancing test readability and collaboration</h3>
+            <p>In projects where different team members must work together on test scripts, keeping tests readable is critical. Cucumber uses Gherkin syntax to provide a human-readable format that drives collaboration between all team members. This ensures that both technical and non-technical stakeholders can easily understand and contribute to the testing process.</p>
+          </div>
+          <div class="type">
+
+            <h3>Validation of user-centric features</h3>
+            <p>For applications heavily focused on user experience, ensuring the smooth work of user-centric features is imperative. Cucumber's specifications based on natural language allow teams to create tests that directly align with user stories, ensuring that the end-user experience is thoroughly validated.</p>
+        
+        </div>
+         <div class="type">
+
+            <h3>Frequently changed requirements</h3>
+            <p>In dynamic projects where requirements change frequently, updating and executing test cases manually become cumbersome. Cucumber enables easy modification of test scenarios, ensuring that automated tests can adapt swiftly to changing project requirements.</p>
+    
+         </div>
+            <div class="type">
+
+             <h3>Need for parallel cross-browser testing</h3>
+             <p>As applications need to operate seamlessly across various browsers and environments, executing tests in parallel becomes essential. In combination with tools like Selenium or Appium, Cucumber facilitates parallel cross-browser testing, ensuring comprehensive test coverage across different platforms.</p>
+
+            </div>
+            <div class="type">
+
+                <h3>Regression testing efficiency</h3>
+                <p>In environments where continuous integration and continuous deployment are the norm, regression testing must be swift and effective. The automation capabilities of Cucumber enable efficient regression testing, allowing teams to catch and address issues promptly without sacrificing development speed.</p>
+   
+               </div>
+    </section>
+    <section class="section-m1">
+        <div class="f-text ">
+            <h2 >Cucumber automation testing services</h2>
+          <p>Revolutionize your BDD-driven testing with our specialized Cucumber automation testing services. Our experienced team delivers comprehensive testing solutions tailored to your unique requirements.</p>
+       </div>
+       <div class="types cucumber2">
+          <div class="type">
+            
+            <h3>Expert Consulting on test automation with Cucumber </h3>
+            <p>Have you decided to lay a course for BDD with Cucumber?  Our team of Cucumber experts is ready to guide you through the intricacies, providing expert consulting on test automation. Let our expertise be the compass that drives your success in the world of BDD and Cucumber automation.</p>
+          </div>
+          <div class="type">
+           
+            <h3>Creating test automation plans</h3>
+            <p>Tailored for BDD scenarios, our test automation plans define clear objectives, outline test requirements, provide tech stack data, and identify key metrics to measure the effectiveness of automation efforts. With our customized test automation plans, we ensure alignment with your BDD goals, facilitating a seamless and purposeful journey toward efficient and effective test automation.</p>
+          </div>
+          <div class="type">
+
+            <h3>Building Cucumber test automation solutions from scratch</h3>
+            <p>Whether you're in the early stages of development or are in a full‑blown development spurt, our team is equipped to create a robust automation solution from scratch, using the power of Cucumber. Rest assured, reliability, scalability, efficiency, and ease of maintenance will be at the core of our solution. </p>
+        
+        </div>
+         <div class="type">
+
+            <h3>Designing test automation architecture</h3>
+            <p>Our approach to designing a test automation architecture involves meticulous consideration of all nuances. This encompasses structuring feature files, organizing step definitions, implementing data-driven scenarios, enabling parallel execution, ensuring seamless integration with external systems, etc. By addressing these aspects, we deliver an optimized and efficient behavior-driven development (BDD) automation process tailored to the unique requirements of your project.</p>
+    
+         </div>
+            <div class="type">
+
+             <h3>Integrating tests into CI/CD pipelines</h3>
+             <p>Cucumber can be effectively used in a CI/CD environment. Integrating Cucumber into a CI/CD pipeline is a common practice for us. This way, we ensure that automated tests are executed automatically with each code change, providing developers with quick feedback and maintaining the quality of your software throughout its development lifecycle.</p>
+
+            </div>
+            <div class="type">
+
+                <h3>Providing continuous support and maintenance</h3>
+                <p>At QZentrum, we offer ongoing support and maintenance services to keep your Cucumber-based tests up-to-date with changes in your applications and advancements in technology. Rest assured, your test automation solution will operate at its full potential, maintaining efficiency and effectiveness throughout the evolution of your software.</p>
+   
+               </div>
+    </section>
+    <section class="footer ">
+      <div class="footer-container">
+        <div class="foot">
+          <h3>ABOUT QZentrum</h3>
+          <p>QZentrum is a leading provider of QA services.</p>
+          <p>Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+        </div>
+     
+        <div class="foot">
+          <h3>Stay connected</h3>
+          <div class="icons">
+          <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+          
+        </div>
+        </div>
+         <div class="foot">
+          <h3>contact info</h3>
+          <p><a href="tel:01016096128"><i class="fa-solid fa-mobile-retro"></i> +20 101 609 6128</a></p>
+          <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i> sk@qzentrum.com</a></p>
+        
+        </div>
+      </div>
+      <div class="footer-copy">
+       
+         &copy;2024 <span>Qzentrum</span>, All rights reserved 
+      
+      </div>
+    </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>

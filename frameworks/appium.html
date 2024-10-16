@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test automation with Appium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  
+    <section id="header">
+        <nav class="header-nav">
+          <ul class="list-unstyled">
+              <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+              <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> :+20 101 609 6128</a></li>
+          </ul>
+      </nav>
+    
+         <div class="header-menu">
+          <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+          <nav class="menu">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown"><a href="#">About us</a><i class="fa-solid fa-chevron-down"></i>
+                  <ul class="submenu">
+                      <li><a href="../aboutus/qualityassurance.html">our Quality assurance team</a></li>
+                      <li><a href="../aboutus/workspace.html">Our Workspace</a></li>   
+                  </ul></li>
+              <li class="dropdown"><a href="#">services</a><i class="fa-solid fa-chevron-down"></i>
+                <ul class="submenu">
+                  <li class="dropdown"><a href="#">solutions</a><i class="fa-solid fa-chevron-down"></i>
+                    <uL class="submenu submenu-right">
+                        <li><a href="../services/manaual-test.html">manual testing</a></li>
+                        <li><a href="../services/test-automation.html">test automation</a></li>
+                        <li><a href="../services/performance-test.html">Performance testing</a></li>
+                        <li><a href="../services/qacontrol&advisory.html">QA Control & Advisory</a></li>
+                        <li><a href="../services/qastrategy&processdesign.html">QA Strategy & Process design</a></li>
+                        <li><a href="../services/devops.html">devOps</a></li>
+                        <li><a href="../services/jira.html">jira</a></li>
+                        <li><a href="../services/endtoend.html">end to End Testing</a></li>
+                        
+                    </uL>
+                </li>
+                  <li class="dropdown"><a href="#">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+                      <uL class="submenu submenu-right">
+                          <li><a href="../services/webapps.html">web apps</a></li>
+                          <li><a href="../services/mobileapps.html">mobile apps</a></li>
+                          <li><a href="../services/sap.html">SAP</a></li>
+                          <li><a href="../services/erp.html">ERP</a></li>
+                          <li><a href="../services/dynamicCRM.html">dynamic CRM</a></li>
+                        
+                          <li><a href="../services/financialsystem.html">Financial System</a></li>
+                          
+                      </uL>
+                  </li>
+                  <li class="dropdown"><a href="#">coverage</a><i class="fa-solid fa-chevron-down"></i>
+                      <uL class="submenu submenu-right">
+                          <li><a href="../services/functional.html">functional Testing</a></li>
+                          <li class="dropdown"><a href="../services/non-functional.html">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+                           <ul class="submenu submenu-right">
+                              <li><a href="../services/ui&ux.html">UI&UX Testing</a></li>
+                              <li><a href="../services/load&stress.html">load & Stress Testing</a></li>
+                           </ul>
+                          </li>
+                          <li><a href="../services/system-test.html">system Testing</a></li>
+                          <li><a href="../services/intergration.html">integration Testing</a></li>
+                          <li><a href="../services/uat.html">UAT Testing</a></li>
+                          <li><a href="../services/localization.html">Localization Testing</a></li>
+                          <li><a href="../services/ad-hoc.html">Ad-Hoc Testing</a></li>
+                          <li><a href="../services/api-test.html">Api Testing</a></li>
+                          
+                      </uL></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#">industries</a><i class="fa-solid fa-chevron-down"></i>
+                
+              
+                  <ul class="submenu ">
+                      <div class="twolist">
+                      <li><a href="../industries/fintech.html">fintech</a></li>
+                      <li><a href="../industries/healthcare.html">healthCare</a></li>
+                      <li><a href="../industries/businessapp.html">business app</a></li>
+                      <li><a href="../industries/travel.html">travel</a></li>
+                      <li><a href="../industries/e-learning.html">e-learning</a></li>
+                      <li><a href="../industries/insurance.html">insurance</a></li>
+                      <li><a href="../industries/e-commerce.html">e-commerce</a></li>
+                      <li><a href="../industries/hr.html">HR</a></li>
+                  </div>
+                  </ul>
+          
+             
+              </li>
+              <li class="dropdown"><a href="#">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+                <ul class="submenu">
+                  <div class="twolist">
+                  <li><a href="selenuim.html">selenium</a></li>
+                  <li><a href="playwright.html">playwright</a></li>
+                  <li><a href="testng.html">testNG</a></li>
+                  
+                  <li><a href="maven.html">maven</a></li>
+                  <li><a href="tosca.html">tosca</a></li>
+                  <li><a href="cucumber.html">cucumber</a></li>
+                  <li><a href="cypress.html">cypress</a></li>
+                  <li><a href="appium.html">appium</a></li>
+                  <li><a href="postman.html">postman</a></li>
+              </div>  
+              </ul>
+              </li>
+             
+              <li><a href="../contactus.html">contact us</a></li>
+              <button class="closemenu">X</button>
+          </ul>
+         </nav>
+         <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+         </div>
+    </section>
+    <button class="chat-toggle">
+        <span><i class="fa-brands fa-rocketchat"></i></span>
+        
+      </button>
+      <section class="chatbot">
+        <header style="color:#EA2027;">
+          <span class="closechat">x</span>
+          <i class="fa-brands fa-bots fa-3x"></i>
+          <h2>Let's chat!</h2>
+        </header>
+        <div class="chat-area">
+          <div class="chat bot">
+            <p>Hi there,   <br>Please let me know how can i help you? </p>
+          </div>
+          <div class="chat human">
+          </div>
+        </div>
+        <form class="input-chat">
+          <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+          <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </section>
+    <section class="section-m1" >
+        <div class="general fgeneral ">
+            <div class="image">
+                <img src="../imgs/frameworks/appium.png">
+            </div>
+            <div class="text">
+            <p > In the highly competitive world of software development, ensuring the seamless functioning of your mobile applications across various devices and platforms is paramount. This is where Appium automation testing services step in, offering a robust solution to elevate the efficiency and reliability of your mobile app testing process. If you find yourself grappling with the challenges of cross-platform development, scalability, frequent code changes, test coverage, cost-efficiency, and user experience, Appium automation testing services are the key to taking your mobile app testing strategy to new heights. Embrace automation and empower your team to deliver high-quality applications that shine brightly in a crowded digital landscape.
+            </p>
+            </div>
+        </div>
+    </section>
+     <section class="section-m1">
+        <div class="f-text ">
+            <h2 >When do you need Appium automation testing services?</h2>
+          
+       </div>
+       <div class="types appium">
+          <div class="type">
+            
+            <h3>Cross-platform application development</h3>
+            <p>If your organization develops applications that need to run smoothly on both Android and iOS platforms, Appium automation testing services become indispensable. Appium's cross-platform compatibility ensures consistent testing across diverse environments, streamlining your testing efforts and reducing time-to-market.</p>
+          </div>
+          <div class="type">
+           
+            <h3>Scalability and continuous integration</h3>
+            <p>As your application evolves and expands, manual testing can become a bottleneck. Appium automation testing services provide a scalable solution, allowing you to seamlessly integrate automated tests into your continuous integration pipeline. This ensures that every code change is rigorously tested, preventing potential regressions and enhancing the overall stability of your application.</p>
+          </div>
+          <div class="type">
+
+            <h3>Frequent code changes</h3>
+            <p>In Agile development environments where code changes are frequent, maintenance of test consistency becomes challenging. The ability of Appium to work with different programming languages and integrate with various testing frameworks makes it an ideal choice for dynamic projects. Appium automation testing services enable you to execute tests swiftly, adapting to evolving codebases with ease.</p>
+        
+        </div>
+         <div class="type">
+
+            <h3>Time and cost efficiency</h3>
+            <p>Manual testing can be time-consuming and expensive. Appium automation testing services offer a cost-effective alternative by significantly reducing the time and resources required for repetitive testing tasks. This allows your testing team to focus on more complex scenarios, improving the overall quality of your application.</p>
+    
+         </div>
+            <div class="type">
+
+             <h3>Enhanced test coverage</h3>
+             <p>Manual testing often struggles to provide comprehensive coverage, especially in scenarios where hundreds of test cases need to be executed. Appium automation testing services empower you to achieve extensive test coverage by executing tests across multiple devices and operating system versions simultaneously, ensuring the seamless work of your application in diverse scenarios.</p>
+
+            </div>
+            <div class="type">
+
+                <h3>Ensuring great user experience</h3>
+                <p>In today's competitive market, user experience is paramount. Appium's ability to simulate real-user interactions ensures that your application performs seamlessly, providing a reliable and consistent experience across various devices. Appium automation testing services help you identify and address potential user experience issues before your app is delivered to end-users.</p>
+   
+               </div>
+    </section>
+    <section class="section-m1">
+        <div class="f-text ">
+            <h2 >Appium automation testing services</h2>
+          <p>Empower your mobile application testing with our top-notch Appium automation testing services. Our Appium experts bring in-depth knowledge and hands-on experience, ensuring comprehensive coverage of your mobile QA needs.</p>
+       </div>
+       <div class="types appium">
+          <div class="type">
+            
+            <h3>Consulting on mobile test automation with Appium</h3>
+            <p>Are you looking to automate your mobile tests but unsure where to start? Do you want to optimize your existing test automation strategy? Our team of Appium consultants is here to assist you. We are ready to guide you in designing effective test automation strategies, adopting best practices, and implementing optimal testing approaches to enhance efficiency.</p>
+          </div>
+          <div class="type">
+           
+            <h3>Designing mobile test automation plans</h3>
+            <p>Appium test automation needs to be thoroughly planned to avoid gaps and ambiguities and ensure test efficacy. We design detailed test automation plans for mobile apps that encompass defining objectives, selecting and prioritizing test cases, outlining requirements for test environments, and identifying key metrics to measure automation effectiveness.</p>
+          </div>
+         
+         <div class="type">
+
+            <h3>Creating robust Appium automation solutions</h3>
+            <p>Regardless of the stage of your development journey, our team can create a robust automation solution from scratch using the capabilities of the Appium framework. Guided by your needs and objectives, we build reliable, scalable, and easy-to-maintain solutions that propel the quality of your mobile apps.</p>
+    
+         </div>
+        
+            <div class="type">
+
+             <h3>Developing a test automation architecture</h3>
+             <p>A resilient test automation architecture is a key to success. Developing a test automation architecture we take into consideration all nuances including test suite structure, test data handling, integration with CI/CD pipelines, integration with external systems, and others. This comprehensive approach ensures the efficiency of our Appium-based test automation solutions.</p>
+
+            </div>
+            <div class="type">
+
+                <h3>Creating test suites </h3>
+                <p>Addressing your unique mobile testing requirements, we design tailor-made test suites for comprehensive regression testing and rapid smoke testing. Our goal is to maximize test coverage efficiency while optimizing execution time for your mobile applications.</p>
+            
+            </div>
+            <div class="type">
+
+                <h3>Integrating tests into CI/CD pipelines</h3>
+                <p>Our engineers seamlessly integrate automated tests created with Appium into your CI/CD pipelines. By making testing an integral part of your mobile development lifecycle, we reduce feedback loops, speed up releases, and ensure the exceptional quality of your mobile applications.</p>
+   
+               </div>
+               <div class="type">
+
+                <h3>Providing continous support and maintenance</h3>
+                <p>Our engineers seamlessly integrate automated tests created with Appium into your CI/CD pipelines. By making testing an integral part of your mobile development lifecycle, we reduce feedback loops, speed up releases, and ensure the exceptional quality of your mobile applications.</p>
+   
+               </div>
+    </section>
+    <section class="footer ">
+        <div class="footer-container">
+          <div class="foot">
+            <h3>ABOUT QZentrum</h3>
+            <p>QZentrum is a leading provider of QA services.</p>
+            <p>Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+          </div>
+       
+          <div class="foot">
+            <h3>Stay connected</h3>
+            <div class="icons">
+            <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            
+          </div>
+          </div>
+           <div class="foot">
+            <h3>contact info</h3>
+            <p><a href="tel:01016096128"><i class="fa-solid fa-mobile-retro"></i> +20 101 609 6128</a></p>
+            <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i> sk@qzentrum.com</a></p>
+          
+          </div>
+        </div>
+        <div class="footer-copy">
+         
+           &copy;2024 <span>Qzentrum</span>, All rights reserved 
+        
+        </div>
+      </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>
