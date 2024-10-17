@@ -714,7 +714,7 @@ section.why-us .container-why .info img{
     width: 100%;
 }
 section.why-us .container-why .info.text{
-    background-color: var(--main--color);
+    background-color: white;
     padding: 80px 30px;
 }
 section.why-us .container-why .info.text h3{
